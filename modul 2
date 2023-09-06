@@ -1,0 +1,50 @@
+# jag gjorde detta i modul 1 #
+
+#2#
+num_1 = 10 
+num_2 = 10 
+
+ditt_svar = int(num_1) + int(num_2)
+
+print(ditt_svar)
+
+#3#
+namn = input("skriv ditt namn:")
+ålder = input("skriv din ålder:")
+print("ditt namn är ",namn)
+print("du är",ålder,"år gammal")
+
+#4#
+nummer_1 = input("skriv ett nummer:")
+nummer_2 = input("skriv ett till nummer:")
+
+svar = int(nummer_1) * int(nummer_2)
+
+print("svaret är:", svar )
+
+#5#
+Vikt = input("hur mycket väger du:")
+Längd = input("hur lång e du i M:")
+
+print("ditt BMI är:", float(Vikt) / ((float(Längd) * float(Längd))))
+
+#6#
+
+födelsedatum = input("vilket är födes du:")
+
+print((2023 - int(födelsedatum)) * 4 * 12 )
+
+#7#
+Mått = input("i vilken enhet väger du dig kg eller lb:")
+
+lb = "lb"
+kg = "kg"
+
+if Mått == lb: 
+    print("du väger", float(Vikt) * 0.45, " kg")
+
+elif Mått == kg:
+    print("du väger", float(Vikt) * 2.2, "lb")
+
+print("Programet är klart")
+
